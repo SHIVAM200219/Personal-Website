@@ -185,3 +185,28 @@
 .intro .content {
     width: 700px;
 }
+
+.gradtext{
+    font-size: xx-large;
+    background: -webkit-linear-gradient(135deg,pink,#0084ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background: inherit;
+    background-clip: text;
+    color: transparent; */
+    /* filter: invert(1); */
+    filter: contrast(10) ;
+}
+
+.grad-div{
+    /* background-image:linear-gradient(to bottom right, rgb(187, 8, 252),rgb(250, 11, 146)); */
+    background-image:linear-gradient(to bottom right,rgb(250, 11, 146), #0084ff);
+    width: fit-content;
+    min-width: 50%;
+    box-sizing: border-box;   
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
