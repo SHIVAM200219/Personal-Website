@@ -112,13 +112,7 @@
 
         </div>
     </div>
-
-    <footer class="bg-dark text-light text-center p-2">
-        <h3>Have a Nice Day</h3>
-        <h3>Thanks for visiting my Website</h3>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div id="footer"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -131,6 +125,7 @@
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script>
         $("#navbar").load("components/navbar.html");
+        $("#footer").load("components/footer.html");
         window.onload = function () {
             document.getElementById('nav_home').classList.add('active');
         };
