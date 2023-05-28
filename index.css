@@ -167,6 +167,10 @@
     .inner h3{
         font-size: 0.7rem;
     }
+
+    .phone{
+        align-items:flex-start;
+    }
 }
 
 .education {
